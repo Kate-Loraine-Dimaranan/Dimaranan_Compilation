@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate Loraine Dimaranan's Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #b6c7dd;;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .jumbotron {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 50px 100px;
+            margin-bottom: 30px;
+            color: #fff;
+            background-color: #000741;
+        }
+        .jumbotron h1 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .jumbotron p {
+            font-size: 20x;
+            line-height: 2;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight:500;
+        }
+        .section-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .section-content {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .section-content h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000741;
+            margin-bottom: 20px;
+        }
+        .section-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .section-content table th, .section-content table td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+       
+        .section-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .section-content ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .section-content ul li:before {
+            content: '\2022';
+            color: #ffc4ae;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+        }
+        .work-item {
+            margin-bottom: 30px;
+            
+        }
+        .work-item h4 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .work-item p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .work-item h5 {
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .img-circle {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .Awards h5, .Certifications h5 {
+            color: #73303c;
+            font-style: italic;
+            font-weight: 500;
+            margin: 10px 0px;
+            font-size: smaller;
+        }
+
+        .Awards h4, .Certifications h4 {
+            color: #000741;
+            font-weight: 500;
+            margin: 10px 0px;
+            font-size: medium;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffffff;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            border: none;
+            border-radius: 50px; 
+            cursor: pointer;
+            text-align: center;
+            transition: background 0.4s, transform 0.3s;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.1); 
+            transition: all 0.4s ease-out;
+            mix-blend-mode: overlay;
+            transform: translate(-30%, -30%) rotate(30deg); 
+            z-index: 0;
+        }
+
+        .btn:hover::before {
+            transform: translate(-30%, -30%) rotate(180deg); 
+        }
+
+        .btn ion-icon {
+            margin-right: 10px;
+            vertical-align: middle;
+            font-size: 20px;
+        }
+
+        .btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #6a8bff 0%, #8e6bff 100%); 
+            transform: translateY(-2px) scale(1.05); 
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); 
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+            
+            .btn ion-icon {
+                font-size: 18px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="Photo"> 
+            <img src="DIMARANAN,KATE LORAINE.jpg" alt="Kate Loraine Dimaranan" class="img-circle">
+        </div>
+        <h1>Kate Loraine Dimaranan</h1>
+        <p>Seeking a life job where I can put my skills and abilities to use and advance professionally while being resourceful, creative, and adaptable. To become an active part of your prestigious organization and provide valuable assets.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-content">
+                    <h2>Personal Info</h2>
+                    <table class="table table-striped">
+                        <tr>
+                            <th class="info">Date of Birth</th>
+                            <td>November 28, 2002</td>
+                        </tr>
+                        <tr>
+                            <th class="info">Civil Status</th>
+                            <td>Single</td>
+                        </tr>
+                        <tr>
+                            <th class="info">Gender</th>
+                            <td>Female</td>
+                        </tr>
+                        <tr>
+                            <th class="info">Citizenship</th>
+                            <td>Filipino</td>
+                        </tr>
+                        <tr>
+                            <th class="info">Religion</th>
+                            <td>Roman Catholic</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="section-content">
+                    <h2>Contact Info</h2>
+                    <table class="table table-striped">
+                        <tr>
+                            <th class="info"> Address: </th>
+                            <td>Brgy. Asisan, Tagaytay City</td>
+                        </tr>
+
+                        <tr>
+                            <th class="info"> Email:  </th>
+                            <td><a href="mailto:katelorained@gmail.com" style="color: #007bff;">katelorained@gmail.com</a></td>
+                        </tr>
+
+                        <tr>                            
+                            <th class="info"> Phone: </th>
+                            <td> +639611592494</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-content">
+                    <h2>Educational Attainment</h2>
+                    <table class="table table-striped">
+                        <tr>
+                            <th class="info">Institution</th>
+                            <th class="info">Program</th>
+                            <th class="info">Year</th>
+                        </tr>
+                        <tr>
+                            <td>City College of Tagaytay</td>
+                            <td>Bachelor of Science in Information Technology</td>
+                            <td>2022 - On going</td>
+                        </tr>
+                        <tr>
+                            <td>Olivarez College Tagaytay</td>
+                            <td>Science, Technology, Engineering and Mathematics (STEM) - Senior High School</td>
+                            <td>2019 - 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Tagaytay City National High School</td>
+                            <td>Junior High School</td>
+                            <td>2015 - 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Mendez Central School</td>
+                            <td></td>
+                            <td>2009 - 2015</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-content">
+                    <h2>Work Experience</h2>
+                    <div class="work-item">
+                        <h4>Tech Solutions PH, Makati City, Philippines</h4>
+                        <p>JUNE 2027 - PRESENT</p>
+                        <h5>WEB DEVELOPER</h5>
+                        <p>Passionately crafting user-friendly websites with a touch of innovation and flair. Seamlessly blending functionality with aesthetics!</p>
+                    </div>
+                    <div class="work-item">
+                        <h4>Creative Minds Agency, Quezon City, Philippines</h4>
+                        <p>AUGUST 2026 - MAY 2027</p>
+                        <h5>JUNIOR WEB DESIGNER</h5>
+                        <p>Transforming ideas into captivating digital experiences. Infusing designs with personality and charm!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-content Awards">
+                    <h2>Awards</h2>
+                    <ul>
+                        <li><h4>Web Design Excellence Award (2026)</h4><h5>Philippine Web Designers Organization (PWDO)</h5></li>
+                        <li><h4>Best Responsive Design (2026)</h4><h5>Web Developers Guild Philippines (WDGP)</h5></li>
+                        <li><h4>Innovation in Web Development (2025)</h4><h5>Tech Innovators PH</h5></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="section-content Certifications">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li><h4>Certified Front-End Web Developer (CFWD) (2025)</h4><h5>International Association of Web Developers (IAWD)</h5></li>
+                        <li><h4>React.js Fundamentals Certification (2025)</h4><h5>Udemy</h5></li>
+                        <li><h4>SEO Specialist Certification (2025)</h4><h5>Search Engine Optimization Organization of the Philippines (SEOO.PH)</h5></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-logout">
+            <a href="../index.html" class="btn btn-secondary mt-3">
+                <ion-icon name="log-out-outline"></ion-icon>Logout
+            </a>
+        </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

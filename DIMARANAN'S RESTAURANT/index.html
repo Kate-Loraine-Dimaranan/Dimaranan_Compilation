@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- SIDEBAR -->
+    <div class = "sidebar">
+        <img class="logo-img" src="MENU/LOGO1.png">
+
+        <div class="sidebar-menus">
+            <a href = "#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href = "#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href = "#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href = "#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href = "#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href = "#"><ion-icon name="settings-outline"></ion-icon>Setting<ion</a>
+        </div>
+
+        <div class="sidebar-logout">
+            <a href="../index.html" class="btn btn-secondary mt-3">
+                <ion-icon name="log-out-outline"></ion-icon>Logout
+            </a>
+        </div>
+    </div>
+    
+    <!-- MAIN -->
+    <div class="main">
+        <div class="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+                <div class="search">
+                    <input type="text" placeholder="What would you like to have for your meal?">
+                    <button class="search-btn">Search</button>
+                </div>
+        </div>
+
+        <div class="main-highlight">
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+            
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+
+                <div class="highlight-wrapper">
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="MENU/MAIN DISH/Dakgalbi (Spicy Stir-fried Chicken).png">
+                        <div class="highlight-description">
+                            <h4>Dakgalbi</h4>
+                            <h5>(Stir-fried Spicy Chicken)</h5>
+                            <p>P280.00</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="MENU/VEGETABLES/Kongnamul Muchim (Seasoned Soybean Sprouts).png">
+                        <div class="highlight-description">
+                            <h4>Kongnamul Muchim</h4>
+                            <h5>(Seasoned Soybean Sprouts)</h5>
+                            <p>P80.00</p>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+
+        <div class="main-menus">
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu <br> Category</h2>
+                    
+                </div>
+
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="#"><ion-icon name="restaurant-outline"></ion-icon></a>
+                        </div>
+                            <p>All Menus</p>
+                    </div>
+                    
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="#"><ion-icon name="restaurant-outline"></ion-icon></a>
+                        </div>
+                            <p>Main Dish</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="#"><ion-icon name="restaurant-outline"></ion-icon></a>
+                        </div>
+                            <p>Vegetables</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="#"><ion-icon name="ice-cream-outline"></ion-icon></a>
+                        </div>
+                            <p>Desserts</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="#"><ion-icon name="wine-outline"></ion-icon></a>
+                        </div>
+                            <p>Drinks</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                        </div>
+                            <p>Add On</p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="divider">
+
+            <div class="main-detail">
+                <h2 class="main-title">Choose Order</h2>
+                    <div class="detail-wrapper">
+
+                        <!-- MAIN DISH -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/MAIN DISH/Bulgogi Deopbap (Bulgogi Rice Bowl).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Bulgogi Deopbap </h3>
+                                        <h5> (Bulgogi Rice Bowl) </h5>
+                                        <p class="detail-sub"> Rice bowl topped with thinly sliced marinated beef bulgogi.</p>
+                                        <p class="price"> P250.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/MAIN DISH/Dakgalbi (Spicy Stir-fried Chicken).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Dakgalbi </h3>
+                                        <h5> (Stir-fried Spicy Chicken) </h5>
+                                        <p class="detail-sub"> Marinated in a gochujang-based sauce with vegetables, providing a delicious and satisfying meal option with a spicy kick.</p>
+                                        <p class="price"> P280.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/MAIN DISH/Jeyuk Bokkeum (Spicy Pork Bulgogi).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Jeyuk Bokkeum </h3>
+                                        <h5> (Spicy Pork Bulgogi) </h5>
+                                        <p class="detail-sub"> Pork bulgogi stir-fry, seasoned with gochujang (Korean chili paste) and other spices, providing a flavorful and fiery dish perfect for spice lovers. </p>
+                                        <p class="price"> P260.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/MAIN DISH/Kimchi Jjim (Braised Kimchi).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Kimchi Jjim </h3>
+                                        <h5> (Braised Kimchi) </h5>
+                                        <p class="detail-sub"> Braised kimchi cooked with pork or other ingredients, creating a rich and flavorful dish with a perfect balance of spicy and tangy flavors. </p>
+                                        <p class="price"> P180.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/MAIN DISH/LA Galbi (Korean BBQ Short Ribs).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> LA Galbi </h3>
+                                        <h5> (Korean BBQ Short Ribs) </h5>
+                                        <p class="detail-sub"> Known as Korean BBQ Short Ribs, features beef short ribs marinated in a savory blend of soy sauce, garlic, sugar, and spices, grilled to tender perfection, offering a delightful combination of sweet and savory flavors.</p>
+                                        <p class="price"> P250.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/MAIN DISH/Sundubu Gyeran Guk (Soft Tofu and Egg Soup).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Sundubu Gyeran Guk </h3>
+                                        <h5> (Soft Tofu and Egg Soup) </h5>
+                                        <p class="detail-sub"> Offers a comforting Korean soup made with soft tofu and egg, providing a warm and nourishing dish.</p>
+                                        <p class="price"> P190.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <!-- VEGETABLES -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/VEGETABLES/Gaji Namul (Steamed Eggplants).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Gaji Namul </h3>
+                                        <h5> (Steamed Eggplants) </h5>
+                                        <p class="detail-sub"> A traditional Korean dish, consists of tender steamed eggplants seasoned with soy sauce, sesame oil, garlic, and sesame seeds, providing a deliciously flavorful and healthy side dish.</p>
+                                        <p class="price"> P80.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/VEGETABLES/Kongnamul Muchim (Seasoned Soybean Sprouts).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Kongnamul Muchim </h3>
+                                        <h5> (Seasoned Soybean Sprouts) </h5>
+                                        <p class="detail-sub"> Offers seasoned soybean sprouts with a delightful crunch and savory flavor, perfect as a refreshing side dish or topping.</p>
+                                        <p class="price"> P80.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/VEGETABLES/Oi Bokkeum (Stir-fried Cucumbers).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Oi Bokkeum </h3>
+                                        <h5> (Stir-fried Cucumbers) </h5>
+                                        <p class="detail-sub"> Stir-fried cucumbers seasoned with soy sauce, sesame oil, garlic, and chili flakes, offering a savory and slightly spicy dish with a tender-crisp texture.</p>
+                                        <p class="price"> P80.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/VEGETABLES/Oi Muchim (Spicy Cucumber Salad).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Oi Muchim </h3>
+                                        <h5> (Spicy Cucumber Salad) </h5>
+                                        <p class="detail-sub"> A zesty Korean cucumber salad marinated in a spicy dressing of chili flakes, garlic, vinegar, and sesame oil, providing a refreshing and tangy accompaniment to any meal.</p>
+                                        <p class="price"> P80.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <!-- DESSERTS -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DESSERTS/Bingsu.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Bingsu </h3>
+                                        <p class="detail-sub"> It is made with shaved ice topped with various sweet toppings such as red bean paste, fruits, and condensed milk, offering a refreshing and indulgent treat.</p>
+                                        <p class="price"> P160.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DESSERTS/Chapssaltteok.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Chapssaltteok </h3>
+                                        <p class="detail-sub"> A sweet rice cakes filled with sweetened red bean paste or other fillings, providing a chewy and satisfying snack or dessert. </p>
+                                        <p class="price"> P50.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DESSERTS/Fruits shaved ice milk.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Fruits Shaved Ice Milk </h3>
+                                        <p class="detail-sub"> It  is a refreshing Korean dessert made with shaved ice, fresh fruits, and milk, offering a light and fruity treat perfect for cooling down on warm days.</p>
+                                        <p class="price"> P200.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DESSERTS/Kkwabaegi.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Kkwabaegi </h3>
+                                        <p class="detail-sub"> It is a fluffy and twisted deep-fried doughnut made with yeast, flour, and sugar, and sometimes filled with sweet red bean paste, offering a delightful treat with its crispy exterior and soft interior.</p>
+                                        <p class="price"> P20.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DESSERTS/Patbingsu.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Patbingsu </h3>
+                                        <p class="detail-sub"> Shaved ice dessert topped with sweet red beans, fruits, condensed milk, and sometimes ice cream, providing a refreshing and satisfying treat on hot days.</p>
+                                        <p class="price"> P150.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DESSERTS/Strawberry Rice Cakes.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Strawberry Rice Cakes </h3>
+                                        <p class="detail-sub"> Rice cakes filled with sweet red bean paste and fresh strawberries, offering a delicious combination of flavors and textures. </p>
+                                        <p class="price"> P80.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <!-- DRINKS -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DRINKS/Dalgona Coffee.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Dalgona Coffee </h3>
+                                        <p class="detail-sub"> It is a trendy whipped coffee beverage made by vigorously mixing instant coffee, sugar, and hot water, resulting in a creamy and frothy layer atop cold or hot milk, offering a delightful and indulgent caffeine fix.</p>
+                                        <p class="price"> P150.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DRINKS/Sikhye.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Sikhye </h3>
+                                        <p class="detail-sub"> Traditional Korean sweet rice drink infused with malt, offering a refreshing and slightly sweet flavor with hints of cinnamon and ginger.</p>
+                                        <p class="price"> P100.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DRINKS/SOJU.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Soju </h3>
+                                        <p class="detail-sub"> A clear, colorless spirit typically made from rice, barley, or wheat, known for its smooth taste and relatively high alcohol content. </p>
+                                        <p class="price"> P180.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DRINKS/Sujeonggwa.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Sujeonggwa </h3>
+                                        <p class="detail-sub"> A traditional Korean cinnamon punch made with ginger, cinnamon, and sugar, served cold as a refreshing and aromatic drink with a unique blend of sweet and spicy flavors.</p>
+                                        <p class="price"> P120.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/DRINKS/TERRA.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Terra </h3>
+                                        <p class="detail-sub"> A is a refreshing Korean beer known for its crisp taste and smooth finish, perfect for enjoying with Korean barbecue or spicy dishes.</p>
+                                        <p class="price"> P150.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <!-- ADD ON -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Bibimbap.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Bibimbap </h3>
+                                        <p class="detail-sub"> It is a bowl of mixed rice topped with assorted vegetables, protein such as beef or tofu, a fried egg, and spicy gochujang sauce, offering a colorful and flavorful culinary experience. </p>
+                                        <p class="price"> P100.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Bulgogi.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Bulgogi </h3>
+                                        <p class="detail-sub"> It is a thinly sliced marinated beef or pork grilled to perfection, offering a tender and flavorful meat option with a perfect balance of sweet and savory flavors.</p>
+                                        <p class="price"> P100.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Gamjajeon pancakes.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Gamjajeon Pancakes </h3>
+                                        <p class="detail-sub"> A Korean delicacy, are made by frying thinly sliced potatoes in a savory batter, resulting in crispy yet tender pancakes that are both comforting and flavorful. </p>
+                                        <p class="price"> P50.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Jajangmyeon.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Jajangmyeon </h3>
+                                        <p class="detail-sub"> A popular Korean-Chinese noodle dish, features thick wheat noodles topped with a savory black bean sauce made with diced pork, onions, and other vegetables, offering a hearty and satisfying meal option. </p>
+                                        <p class="price"> P100.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Japchae.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Japchae </h3>
+                                        <p class="detail-sub"> A sweet potato glass noodles stir-fried with assorted vegetables, meat, and seasoned with soy sauce and sesame oil, offering a flavorful and colorful noodle dish with a delightful combination of textures. </p>
+                                        <p class="price"> P50.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Kimchi.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Kimchi </h3>
+                                        <p class="detail-sub"> Kimchi, is a fermented vegetable dish typically made with napa cabbage and radishes, seasoned with chili peppers, garlic, ginger, and salt, offering a tangy, spicy, and flavorful addition to meals.</p>
+                                        <p class="price"> P50.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Sundubu jjigae.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Sundubu Jjigae </h3>
+                                        <p class="detail-sub"> A spicy Korean tofu stew, is made with soft tofu, vegetables, and often seafood or meat, simmered in a fiery red broth seasoned with gochugaru (Korean chili flakes), offering a comforting and flavorful dish.</p>
+                                        <p class="price"> P100.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="MENU/ADD ONS/Tteokbokki.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> Tteokbokki </h3>
+                                        <p class="detail-sub"> A chewy rice cakes cooked in a spicy and sweet gochujang-based sauce, providing a comforting and flavorful snack or meal option.</p>
+                                        <p class="price"> P50.00</p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="main-bills">
+                        <div class="cart">
+                            <button class="close-bills"><ion-icon name="close-outline"></ion-icon></button>
+                            <h2> ORDERS </h2>
+                            <div class="cart-items"> </div>
+                            <br>
+                            <hr>
+                            <h2> RECEIPT </h2><br>
+                        <div class="bills-items"> </div>
+
+                        <div class="cart-total">
+                            <p class="total"> Total: P0.00</p>
+                        </div>
+                    </div>
+                </div>
+    
+</body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</html>

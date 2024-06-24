@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENSORY STYLE HUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- SIDEBAR -->
+    <div class = "sidebar">
+        <img class="logo-img" src="ITEMS/LOGO.png">
+
+        <div class="sidebar-menus">
+            <a href = "index.html"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="" id="bills-link"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="indexStock.html"><ion-icon name="analytics-outline"></ion-icon>Stock</a>
+            <a href=""><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href=""><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href=""><ion-icon name="settings-outline"></ion-icon>Setting<ion</a>
+        </div>
+
+        <div class="sidebar-logout">
+            <a href="../index.html" class="btn btn-secondary mt-3">
+                <ion-icon name="log-out-outline"></ion-icon>Logout
+            </a>
+        </div>
+    </div>
+    
+    <!-- MAIN -->
+    <div class="main">
+        <div class="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+                <div class="search">
+                    <input type="text" placeholder="What would you like to have for your meal?">
+                    <button class="search-btn">Search</button>
+                </div>
+        </div>
+
+        <br>
+
+        <div class="main-menus">
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">SSH <br> Boutique</h2>
+                </div>
+
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href=""><ion-icon name="pricetag-outline"></ion-icon></a>
+                        </div>
+                            <p>Jeans</p>
+                    </div>
+                    
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href=""><ion-icon name="shirt-outline"></ion-icon></a>
+                        </div>
+                            <p>T-shirt</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href=""><ion-icon name="diamond-outline"></ion-icon></a>
+                        </div>
+                            <p>Perfume</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href=""><ion-icon name="pricetag-outline"></ion-icon></a>
+                        </div>
+                            <p>Sando</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href=""><ion-icon name="basketball-outline"></ion-icon></a>
+                        </div>
+                            <p>Toys</p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <hr class="divider">
+
+            <div class="main-detail">
+                <h2 class="main-title">Choose Items</h2>
+                <div class="detail-wrapper">
+                    
+                        <!-- JEANS -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/JEANS/HIGH WAIST SKINNY JEANS (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> HIGH WAIST SKINNY JEANS </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="detail-sub"> Color: Classic Blue</p>
+                                        <p class="detail-sub"> Size: 28</p>
+                                        <p class="price"> P800.00</p>
+                                        <p class="stock" id="stock-jeans-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/JEANS/JOGGER (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> JOGGER </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="detail-sub"> Color: Blue</p>
+                                        <p class="detail-sub"> Size: 30</p>
+                                        <p class="price"> P750.00</p>
+                                        <p class="stock" id="stock-jeans-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/JEANS/LEGGINGS (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> LEGGINGS </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="detail-sub"> Color: Blue</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P500.00</p>
+                                        <p class="stock" id="stock-jeans-leggings-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/JEANS/TAPERED FIT JEANS (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> TAPERED FIT JEANS </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="detail-sub"> Color: Sky Blue</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P800.00</p>
+                                        <p class="stock" id="stock-jeans-tapered-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <!-- T-SHIRT -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/T-SHIRT/REGULAR FIT CREWNECK T-SHIRT (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> REGULAR FIT CREWNECK T-SHIRT </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="detail-sub"> Color: White</p>
+                                        <p class="detail-sub"> Size: FreeSize </p>
+                                        <p class="price"> P350.00</p>
+                                        <p class="stock" id="stock-tshirt-regular-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/T-SHIRT/SCOOP V-NECK T-SHIRT (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> SCOOP V-NECK T-SHIRT  </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="detail-sub"> Color: Black</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P350.00</p>
+                                        <p class="stock" id="stock-tshirt-regular-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/T-SHIRT/SHORT SLEEVE CREW NECK T-SHIRT (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> SHORT SLEEVE CREWNECK T-SHIRT  </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="detail-sub"> Color: White</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P400.00</p>
+                                        <p class="stock" id="stock-tshirt-crew-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/T-SHIRT/V-NECK T-SHIRT (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> V-NECK T-SHIRT </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="detail-sub"> Color: Black</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P400.00</p>
+                                        <p class="stock" id="stock-tshirt-crew-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <!-- PERFUME -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/PERFUME/BLEU DE CHANEL (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> BLEU DE CHANEL </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="price"> P1500.00</p>
+                                        <p class="stock" id="stock-perfume-bleu-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/PERFUME/GUCCI GUILTY PERFUME (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> GUCCI GUILTY PERFUME </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="price"> P2100.00</p>
+                                        <p class="stock" id="stock-perfume-gucci-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/PERFUME/GUCCI GUILTY PERFUME (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> GUCCI GUILTY PERFUME </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="price"> P2000.00</p>
+                                        <p class="stock" id="stock-perfume-gucci-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/PERFUME/VICTORIA'S SECRET ANGEL GOLD (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> VICTORIA'S SECRET ANGEL GOLD </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="price"> P1500.00</p>
+                                        <p class="stock" id="stock-perfume-victoria-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+
+                        <!-- SANDO -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/SANDO/ATHLETIC CROPPED MUSCLE TANK TOP (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> ATHLETIC CROPPED MUSCLE TANK TOP  </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="detail-sub"> Color: Pink</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P250.00</p>
+                                        <p class="stock" id="stock-tanktop-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/SANDO/SLIM FIT BEACH TANK TOP (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> SLIM FIT BEACH TANK TOP </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="detail-sub"> Color: Black</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P250.00</p>
+                                        <p class="stock" id="stock-tanktop-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/SANDO/SLUB POCKET TANK TOP (MEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> SLUB POCKET TANK TOP  </h3>
+                                        <h5> (MEN) </h5>
+                                        <p class="detail-sub"> Color: Maroon</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P250.00</p>
+                                        <p class="stock" id="stock-tanktop-slub-men">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/SANDO/WAFFLE TANK TOP (WOMEN).png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> WAFFLE TANK TOP </h3>
+                                        <h5> (WOMEN) </h5>
+                                        <p class="detail-sub"> Color: Blue</p>
+                                        <p class="detail-sub"> Size: FreeSize</p>
+                                        <p class="price"> P250.00</p>
+                                        <p class="stock" id="stock-tanktop-waffle-women">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <!-- TOYS -->
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/TOYS/4 IN 1 SWING SET.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> 4 IN 1 SWING SET </h3>
+                                        <p class="detail-sub"> Color: Classic White</p>
+                                        <p class="detail-sub"> Size: Big</p>
+                                        <p class="price"> P1200.00</p>
+                                        <p class="stock" id="stock-toys-swing">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/TOYS/CONSTRUCTION CAR.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> CONSTRUCTION CAR </h3>
+                                        <p class="detail-sub"> Color: Balck and Yellow</p>
+                                        <p class="detail-sub"> Size: Small</p>
+                                        <p class="price"> P1000.00</p>
+                                        <p class="stock" id="stock-toys-car">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/TOYS/MINI PLAY KITCHEN SET.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> MINI PLAY KITCHEN SET </h3>
+                                        <p class="detail-sub"> Color: Pink</p>
+                                        <p class="detail-sub"> Size: Small</p>
+                                        <p class="price"> P1100.00</p>
+                                        <p class="stock" id="stock-toys-kitchen">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="detail-card">
+                            <img class="detail-img" src="ITEMS/TOYS/BARBIE GIRLS 3 STORY DOLL DREAM HOUSE PLAY SET.png">
+                                <div class="detail-description">
+                                    <div class="detail-name">
+                                        <h3> BARBIE GIRLS 3 STORY DOLL DREAM HOUSE PLAY SET </h3>
+                                        <p class="detail-sub"> Color: Pink</p>
+                                        <p class="detail-sub"> Size: Big</p>
+                                        <p class=h"price"> P1400.00</p>
+                                        <p class="stock" id="stock-toys-dollhouse">Stock: <span>10</span></p>
+                                    </div>
+                                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                                </div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="main-bills">
+                <div class="cart">
+                    <button class="close-bills"><ion-icon name="close-outline"></ion-icon></button>
+                    <h2> ORDERS </h2>
+                        <div class="cart-items"> </div>
+                    <hr>
+                        <div class="customer-type">
+                            <h4>Select Customer Type</h4>
+                            <div class="customer-btns">
+                                <button class="customer-btn senior">
+                                    <i class="fas fa-user"></i> <strong>Senior</strong>
+                                </button>
+                                <button class="customer-btn pwd">
+                                    <i class="fas fa-wheelchair"></i> <strong>PWD</strong>
+                                </button>
+                                <button class="customer-btn student">
+                                    <i class="fas fa-graduation-cap"></i> <strong>Student</strong>
+                                </button>
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <br>
+                            <button class="checkout">Checkout</button>
+                        <br>
+                        <br>
+                    <hr>
+                    <h2> RECEIPT </h2><br>
+                        <div class="bills-items"> </div>
+                        
+                        <div class="payment-container">
+                            <label for="payment">Enter Payment:</label>
+                            <input type="number" id="payment" name="payment" placeholder="Enter payment amount" step="0.01" required>
+                        </div>
+
+                        <button class="calculate-change">Calculate Change</button>
+                            <p class="discount-receipt">Discount: P0.00</p>
+                            <p class="change-receipt">Change: P0.00</p>
+
+                            <div class="total-checkout-container1">
+                                <p class="total-receipt">Total: P0.00</p>
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="main-bills">
+            <div class="cart">
+                <button class="close-bills"><ion-icon name="close-outline"></ion-icon></button>
+                <h2>ORDERS</h2>
+                <div class="cart-items"></div>
+                <hr>
+                <label for="discount-select">Select Discount:</label>
+                    <select id="discount-select">
+                        <option value="0">No Discount</option>
+                        <option value="0.1">10% Off</option>
+                        <option value="0.2">20% Off</option>
+                        <option value="0.3">30% Off</option>
+                    </select>
+                <button class="checkout">Checkout</button>
+                <hr>
+                <h2>RECEIPT</h2>
+                <div class="bills-items"></div>
+                <div class="payment-container">
+                    <label for="payment">Enter Payment:</label>
+                    <input type="number" id="payment" name="payment" placeholder="Enter payment amount" step="0.01" required>
+                </div>
+                <button class="calculate-change">Calculate Change</button>
+                <p class="discount-receipt">Discount: P0.00</p>
+                <p class="change-receipt">Change: P0.00</p>
+                <div class="total-checkout-container1">
+                    <p class="total-receipt">Total: P0.00</p>
+                </div>
+            </div>
+        </div>
+    
+</body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</html>

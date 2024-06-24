@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+.wrapper{
+    width: fit-content;
+    margin: auto;
+}
+
+.background{
+    background-image: url(CCT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.body-container{
+    width: 85%;
+    height: 80%;
+    padding: 50px;
+    margin: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 8px #000000;
+    background-image: url(BACKGROUND.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    font-family: 'Calibri'; 
+    font-size: 12pt;
+    text-align: center;
+    color: #880808
+}
+
+.Tagaytay-City-OfficialSeal{
+    float: left;
+    height: 110px;
+    width: 100px;
+}
+
+.City-College-of-Tagaytay-Logo{
+    float: right;
+    height: 110px;
+    width: 100px;
+}
+
+.academic-year{
+    text-decoration: underline;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.registration-info{
+    text-align: center; 
+    color: #FFFFFF;
+    background-color: #880808;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+
+.table1 {
+    border: 1px solid #880808;
+    border-collapse: collapse;
+    text-align: justify;
+    width: 100%;
+    line-height: 20px;
+}
+
+.rows-column1 {
+    border-collapse: collapse;
+    color: #880808;
+    text-align: justify;
+    line-height: 20px;
+    padding: 3px;
+    border: 1px solid #880808;
+}
+
+.rows-column3 {
+    border-collapse: collapse;
+    color: #880808;
+    text-align: justify;
+    line-height: 20px;
+    padding: 3px;
+    border-left: 1px solid #880808;
+}
+
+.rows-column2, .rows-column4{
+    border-collapse: collapse;
+    color: #000000;
+    text-align: justify;
+    line-height: 20px;
+    padding: 3px;
+}
+
+.container1{
+    border: 1px solid #880808;
+}
+
+.table2 {
+    font-family: 'Calibri';
+    color: #880808;
+    border: 1px solid #880808;
+    border-collapse: collapse;
+    text-align: justify;
+    width: 100%;
+    line-height: 20px;
+}
+
+.table2 th{
+    font-weight: lighter;
+    max-width: auto;
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.table2a{
+    padding-bottom: 2%;
+}
+
+.first, .second, .third, .fourth, .fifth,.sixth,.seventh,.eighth{
+    width: 100%;
+}
+
+/* SECTION */
+.first .first-section, .second .second-section, .third .third-section, .fourth .fourth-section, .fifth .fifth-section, .sixth .sixth-section, .seventh .seventh-section, .eighth .eighth-section{
+    font-family: 'Calibri';
+    width: 10%;
+    text-align: justify;
+    text-indent: 15%;
+    padding-top: 1%;
+} 
+
+/* COURSE CODE */
+.first .first-course-code, .second .second-course-code, .third .third-course-code, .fourth .fourth-course-code, .fifth .fifth-course-code, .sixth .sixth-course-code, .seventh .seventh-course-code, .eighth .eighth-course-code{
+    font-family: 'Calibri';
+    width: 10%;
+    text-align: justify;
+    text-indent: 40%;
+    padding-top: 1%;
+}
+
+/* COURSE DESCRIPTION */
+.first .first-course-description, .second .second-course-description, .third .third-course-description, .fourth .fourth-course-description, .fifth .fifth-course-description, .sixth .sixth-course-description, .seventh .seventh-course-description, .eighth .eighth-course-description{
+    font-family: 'Calibri';
+    width: 30%;
+    text-align: justify;
+    text-indent: 22%;
+    padding-top: 1%;
+}
+
+/* UNITS */
+.first .first-units, .second .second-units, .third .third-units, .fourth .fourth-units, .fifth .fifth-units, .sixth .sixth-units, .seventh .seventh-units, .eighth .eighth-units{
+    font-family: 'Calibri';
+    width: 10%;
+    text-align: center;
+    text-indent: 45%;
+    padding-top: 1%;
+} 
+
+/* SCHEDULE */
+.first .first-schedule, .second .second-schedule, .third .third-schedule, .fourth .fourth-schedule, .fifth .fifth-schedule, .sixth .sixth-schedule, .seventh .seventh-schedule, .eighth .eighth-schedule{
+    font-family: 'Calibri';
+    width: 15%;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 1%;
+} 
+
+
+/* SUBJECTS//LEC.UNIT/LAB.UNITS/TOTALCREDITS/*/
+.table3 {
+    font-family: 'Calibri';
+    font-weight: bold;
+    border-collapse: collapse;
+    text-align: justify;
+    width: 100%;
+    line-height: 20px;
+    background-color: #F8F898;
+
+}
+
+.table3 .subjects{
+    font-family: 'Calibri';
+    color: #880808;
+    text-indent: 15px;
+}
+
+.table3 .lecture-units, .laboratory-units, .total-credits{
+    font-family: 'Calibri';
+    color: #880808;
+    text-align: center;
+    text-indent: 10px;
+}
+
+.table3 .subjects-number {
+    font-family: 'Calibri';
+    color: #000000;
+    text-align: justify;
+}
+
+.table3 .lecture-units-number, .laboratory-units-number, .total-credits-number{
+    font-family: 'Calibri';
+    color: #000000;
+    text-align: justify;
+}
+
+/* BILLING INFO */
+.billing-info{
+    text-align: center; 
+    color: #FFFFFF;
+    background-color: #880808;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+
+.container4 {
+    display: flex;
+}
+.table {
+    width: 50%;
+    border: 1px solid #880808;
+}
+
+.table td {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table td.scholarship-grant, .assessment-fees, .payment-details{
+    text-indent: 2%;
+    color: #880808;
+    border-collapse: collapse;
+    border-bottom: 1px solid #880808;
+    text-align: justify;
+}
+
+.table td.terms-of-payment{
+    text-indent: 2%;
+    color: #880808;
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+.table td.payment{
+    text-align: right;
+    padding-right: 50%;
+}
+
+.table td.ra-10931{
+    text-indent: 5%;
+    border-bottom: 1px solid #880808;
+}
+
+td.fees, .first-payment, .second-payment, .third-payment, .fourth-payment{
+    font-family: 'Calibri';
+    text-align: justify;
+    padding-left: 5%;
+    color: #880808;
+}
+
+td.price{
+    text-align: right;
+    padding-right: 5%;
+    border-collapse: collapse;
+    border-left: 1px solid #880808;
+}
+
+td.total-fees{
+    text-indent: 5%;
+    color: #880808;
+    border-collapse: collapse;
+    border-top: 1px solid #880808;
+    text-align: justify;
+}
+
+td.none{
+    text-indent: 5%;
+    color: #880808;
+    border-collapse: collapse;
+    border-top: 1px solid #880808;
+    text-align: justify;
+}
+
+td.nonea{
+    text-indent: 5%;
+    color: #880808;
+    border-collapse: collapse;
+    border-top: 1px solid #880808;
+    border-left: 1px solid #880808;
+    text-align: justify;
+}
+
+.table td.total-price{
+    text-align: right;
+    padding-right: 5%;
+    border-top: 1px solid #880808;
+    border-left: 1px solid #880808;
+}
+
+.table td.assessed-by{
+    text-indent: 5%;
+    color: #880808;
+    border-collapse: collapse;
+    border-top: 1px solid #880808;
+    text-align: justify;
+}
+
+.table td.cashier{
+    text-align: center;
+    color: #880808;
+    border-collapse: collapse;
+    border-top: 1px solid #880808;
+    border-left: 1px solid #880808;
+}
+
+.table td.rules-of-fees{
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid #880808;
+    color: #880808;
+}
+
+.table td.rules-of-fees-terms-of-payment{
+    text-indent: 2%;
+    text-align: justify;
+    color: #880808;
+}
+
+.table td.rules-of-fees-terms-of-payment1, .rules-of-fees-terms-of-payment2{
+    text-align: left;
+    color: #880808;
+    padding-left: 7%;
+}
+
+.table td.rules-of-fees-terms-of-payment1a, .rules-of-fees-terms-of-payment1b, .rules-of-fees-terms-of-payment2a, .rules-of-fees-terms-of-payment2b, .rules-of-fees-terms-of-payment2c{
+    text-align: left;
+    color: #880808;
+    padding-left: 15%;
+    word-spacing: 5px;
+}
+
+.footer{
+    margin-top: 3%;
+    border: 1px solid #880808;
+    border-collapse: collapse;
+    text-align: justify;
+    width: 100%;
+    line-height: 20px;
+}
+
+.verified-by, .approved-by {
+    font-family: 'Calibri'; 
+    border-collapse: collapse;
+    color: #880808;
+    text-align: justify;
+    line-height: 20px;
+    text-indent: 10%;
+}
+
+.school-dean, .college-registrar{
+    font-family: 'Calibri';
+    border-collapse: collapse;
+    color: #880808;
+    text-align: justify;
+    line-height: 20px;
+    padding-top: 2%;
+    text-indent: 50%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2%;
+    background-color: #72383D;
+    color: #FFFFFF;
+}
+
+.logo-img{
+    width: 100%;
+    height: 25%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2%;
+    background-color: #72383D;
+    color: #FFFFFF;
+}
+
+.logo-img{
+    width: 100%;
+    height: 25%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.4s, transform 0.3s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1); 
+    transition: all 0.4s ease-out;
+    mix-blend-mode: overlay;
+    transform: translate(-30%, -30%) rotate(30deg); 
+    z-index: 0;
+}
+
+.btn:hover::before {
+    transform: translate(-30%, -30%) rotate(180deg); 
+}
+
+.btn ion-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #6a8bff 0%, #8e6bff 100%); 
+    transform: translateY(-2px) scale(1.05); 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .btn ion-icon {
+        font-size: 18px;
+    }
+}
